@@ -1,0 +1,37 @@
+1.多线程
+
+ thread 和 Runnable的区别和联系
+ 多次start一个线程会怎么样
+ 线程有哪些状态
+ 常见的线程池有几种
+ 这几种线程池之间有什么区别和联系
+ 线程池的实现原理是怎么样的
+ synchronized和ReentrantLock的区别、
+ synchronized锁普通方法和锁静态方法、死锁的原理及排查方法等等
+ 
+ 2.集合
+ 非常重要，也是必问的内容。基本上就是List、Map、Set，问的是各种实现类的底层实现原理，实现类的优缺点。
+
+集合要掌握的是ArrayList、LinkedList、Hashtable、HashMap、ConcurrentHashMap、HashSet的实现原理，能流利作答，当然能掌握CopyOnWrite容器和Queue是再好不过的了。另外多说一句，ConcurrentHashMap的问题在面试中问得特别多，大概是因为这个类可以衍生出非常多的问题，关于ConcurrentHashMap，我给网友朋友们提供三点回答或者是研究方向：
+
+（1）ConcurrentHashMap的锁分段技术
+
+（2）ConcurrentHashMap的读是否要加锁，为什么
+
+（3）ConcurrentHashMap的迭代器是强一致性的迭代器还是弱一致性的迭代器
+ 
+ 3.设计模式
+
+本来以为蛮重要的一块内容，结果只在阿里巴巴B2B事业部面试的时候被问了一次，当时问的是装饰器模式。
+
+当然咱们不能这么功利，为了面试而学习，设计模式在工作中还是非常重要、非常有用的，23种设计模式中重点研究常用的十来种就可以了，面试中关于设计模式的问答主要是三个方向：
+
+（1）你的项目中用到了哪些设计模式，如何使用
+
+（2）知道常用设计模式的优缺点
+
+（3）能画出常用设计模式的UML图
+
+ 4.IO
+ 
+
